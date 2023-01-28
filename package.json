@@ -1,0 +1,19 @@
+{
+  "name": "polyfill-createhmac",
+  "version": "1.0.0",
+  "description": "A small polyfill for the createHmac function in Node.js; meant to be used in Cloudflare Workers but can be used anywhere that has SubtleCrypto.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Aidan Taha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botatooo/polyfill-createHmac.git"
+  },
+  "devDependencies": {
+    "vitest": "^0.28.3"
+  }
+}
