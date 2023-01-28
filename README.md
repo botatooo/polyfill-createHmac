@@ -9,6 +9,12 @@ a polyfill for it.
 > **Warning**
 > This polyfill only supports `UTF-8` strings and `hex` digests. If you need anything else, you're on your own.
 
+## Installation
+
+```sh
+npm i createhmac-polyfill
+```
+
 ## Usage
 
 ```js
