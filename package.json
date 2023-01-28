@@ -11,6 +11,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/botatooo/polyfill-createHmac.git"
-  }
+    "url": "git+https://github.com/botatooo/polyfill-createHmac.git"
+  },
+  "bugs": {
+    "url": "https://github.com/botatooo/polyfill-createHmac/issues"
+  },
+  "homepage": "https://github.com/botatooo/polyfill-createHmac#readme",
+  "devDependencies": {}
 }
