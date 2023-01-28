@@ -16,7 +16,7 @@ import { createHmac } from 'createhmac-polyfill';
 
 const hmac = createHmac('sha512', process.env.SECRET);
 
-// aquire data
+// acquire data
 const data = [...];
 
 hmac.update(data);
