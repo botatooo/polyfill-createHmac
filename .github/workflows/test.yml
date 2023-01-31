@@ -10,6 +10,5 @@ jobs:
     - uses: actions/setup-node@3dbcda8bc2eb5ec6aa3fbde01feaae3236952db8
       with:
         node-version: 19
-        cache: 'npm'
     - run: npm ci
     - run: npm test
