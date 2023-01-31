@@ -6,6 +6,9 @@ a polyfill for it.
 
 **I highly recommend you use the [WebCrypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) directly instead**, but this is for the tired souls who are too tired to figure that out. You're free to copy paste this code into your project if you want.
 
+> **Note**
+> `crypto.subtle` is a fairly new global, so if you want to use this package, you'll need to be on **Node 19** or above.
+
 > **Warning**
 > This polyfill only supports `UTF-8` strings and `hex` digests. If you need anything else, you're on your own.
 
