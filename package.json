@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "author": "Aidan Taha",
   "license": "MIT",
@@ -17,5 +17,7 @@
     "url": "https://github.com/botatooo/polyfill-createHmac/issues"
   },
   "homepage": "https://github.com/botatooo/polyfill-createHmac#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "vitest": "^0.28.3"
+  }
 }

@@ -35,15 +35,11 @@ describe("Errors", () => {
   it("should throw an error if encoding is not hex", async () => {
     const hmac = createHmac("sha512", "secret").update("test string");
 
-    let error = null;
-    try {
+    await expect(async () => {
       await hmac.digest("notHex");
-    } catch (e) {
-      error = e.message;
-    }
-
-    expect(error).not.toBeNull();
-    expect(error).toBe("Only hex encoding is supported");
+    }).rejects.toThrowErrorMatchingInlineSnapshot(
+      '"Only hex encoding is supported"'
+    );
   });
 
   it("should throw an error if algorithm is not supported", async () => {
